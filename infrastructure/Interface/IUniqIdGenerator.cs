@@ -2,7 +2,7 @@
 
 namespace infrastructure.Interface;
 
-internal class IUniqGenerator : UniqGenerator
+public class IUniqIdGenerator : UniqGenerator
 {
     public static string Generate()
     {
